@@ -1,0 +1,364 @@
+
+.hero-container {
+    /*background: url('backG.jpg') center center/cover no-repeat;*/
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /*centers in x and y*/
+    padding-top: 20vh;
+    background-color: black;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+.content-container {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 0px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  border-radius: (10px 10px 0px 0px);
+  
+  align-self: left;
+  
+  object-fit: contain;
+}
+
+.sidebar-container {
+  background-color: rgb(223, 223, 223);
+  height: calc(100% - 10px);
+  max-height: flex;
+  width: calc(26% - 10px);;
+  display: flex;
+  flex-direction: column;
+  border-radius: (10px 0px 0px 0px);
+  /*centers in x and y*/
+  padding-top: 50px;
+  align-items: center;
+  object-fit: contain;
+}
+
+.column-container {
+  height: calc(100% - 10px);
+  max-height: flex;
+  padding: 10px;
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  padding-top: 7%;
+}
+.column-container2 {
+  height: calc(100% - 10px);
+  max-height: flex;
+  padding: 10px;
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  padding-top: 7%;
+}
+.column-container3 {
+  height: calc(100% - 10px);
+  max-height: flex;
+  padding: 10px;
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  padding-top: 7%;
+}
+.date-column-container {
+  background-color: none;
+  height: calc(100% - 10px);
+  max-height: flex;
+  width: 11%;
+  display: flex;
+  flex-direction: column;
+  align-self:right;
+  align-items: right;
+  object-fit: contain;
+  padding-top: 7%;
+}
+
+
+
+
+.information {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 90%;
+  height: 250px;
+  margin: 4%;
+  flex-flow: column;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: contain;
+  text-align: left;
+}
+.information:hover{
+  background-color: rgb(194, 194, 194);
+  cursor: pointer;
+}
+.information-2 {
+  background-color: rgb(203, 225, 255);
+  display: flex;
+  width: 90%;
+  height: flex;
+  margin: 4%;
+  flex-flow: column;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: contain;
+  text-align: left;
+}
+.information-2:hover{
+  background-color: rgb(180, 179, 255);
+  cursor: pointer;
+}
+
+.own-component {
+  background-color: rgb(224, 178, 224);
+  display: flex;
+  width: 90%;
+  height: flex;
+  margin: 4%;
+  flex-flow: column;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: contain;
+  text-align: left;
+}
+
+
+
+.own-component:hover{
+  background-color: rgb(190, 115, 190);
+  cursor: pointer;
+}
+
+
+
+.date-heading {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  margin-top: 8%;
+  flex-flow: column;
+  overflow: hidden;
+  object-fit: contain;
+  text-align: center;
+  border-width: 0 0 3px 0;
+  border-color: rgb(233, 233, 233);
+  border-style: solid;
+}
+.date {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 18%;
+  flex-flow: column;
+  overflow: hidden;
+  object-fit: contain;
+  text-align: right;
+}
+
+dh{
+  color: rgb(192, 192, 192);
+  font-size:calc(10px + 0.5vw);
+  font-weight: bold;
+}
+
+dtext{
+  color: rgb(192, 192, 192);
+  font-size:calc(10px + 0.5vw);
+  font-weight: bold;
+}
+
+dtext:hover{
+  color: rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+ptext{
+  color: rgb(0, 0, 0);
+  font-size:calc(5px + 0.5vw);
+  margin: 5%;
+  margin-top: -10px;
+  line-height: calc(10px + 0.5vw);
+}
+
+h4 {
+  color: rgb(66, 36, 64);
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  font-size: calc(20px + 1.0vw);
+  margin-top: 1.5vw;
+}
+ptextblue{
+  color: rgb(173, 174, 231);
+  font-size:calc(5px + 0.5vw);
+  margin: 5%;
+  margin-top: -10px;
+  line-height: calc(10px + 0.5vw);
+}
+
+h4black {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  font-size: calc(20px + 1.0vw);
+  margin-top: 1.5vw;
+  font-weight: bold;
+}
+h4blue {
+  color: rgb(62, 77, 145);
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  font-size: calc(20px + 1.0vw);
+  margin-top: 1.5vw;
+  font-weight: bold;
+}
+
+
+.logo {
+  background-color: rgb(0, 110, 68);
+  /*background: url('/src/assets/giphy.gif') center center/cover no-repeat;*/
+  width: 35px;
+  height: 35px;
+  border-radius: 9px;
+}
+.logo-wrap {
+  background-color: rgb(223, 223, 223);
+  width: 17vw;
+  height: 35px;
+  margin-bottom: 20px;
+  align-items: left;
+  object-fit: contain;
+}
+
+.infobar {
+  background-color: rgb(223, 223, 223);
+  color: rgb(145, 145, 145);
+  width: 16vw;
+  padding: 2px 5px 5px 5px;
+  border: none;
+  text-align: left;
+  font-size:calc(5px + 0.5vw);
+  font-weight: bold;
+  margin-top: 10px;
+  align-items: left;
+  object-fit: contain;
+}
+
+.otherlink {
+  background-color: rgb(212, 212, 212);
+  color: black;
+  width: 17vw;
+  padding: 2px 5px 5px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  font-size:calc(10px + 0.5vw);
+  font-weight: bold;
+
+}
+
+.lastlink {
+  background-color: rgb(223, 223, 223);
+  color: rgb(135, 2, 197);
+  width: 17vw;
+  padding: 2px 5px 5px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  font-size:calc(10px + 0.5vw);
+  font-weight: bold;
+
+}
+.otherlink:hover {
+  background-color: rgb(145, 145, 145);
+  
+}
+
+.lastlink:hover {
+  background-color: rgb(145, 145, 145);
+  
+}
+
+.filler{
+  background-color: rgb(223, 223, 223);
+  width: 80%;
+  height: 35px;
+  margin-bottom: 35px;
+  color: #d6d6d6;
+  border-width: 0 0 3px 0;
+  border-color: #d6d6d6;
+  border-style: solid;
+}
+
+
+.dropbtn {
+  background-color: rgb(223, 223, 223);
+  color: black;
+  width: 17vw;
+  padding: 2px 5px 5px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  font-size:calc(12px + 0.5vw);
+  font-weight: bolder;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(145, 145, 145);
+}
