@@ -1,11 +1,10 @@
 
 .hero-container {
-    /*background: url('backG.jpg') center center/cover no-repeat;*/
+    background: url('backG.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-
     /*centers in x and y*/
     padding-top: 20vh;
     background-color: black;
@@ -32,7 +31,7 @@
 
 .sidebar-container {
   background-color: rgb(223, 223, 223);
-  height: calc(100% - 10px);
+  height: calc(100% - 50px);
   max-height: flex;
   width: calc(26% - 10px);;
   display: flex;
@@ -45,7 +44,7 @@
 }
 
 .column-container {
-  height: calc(100% - 10px);
+  height: 88%;
   max-height: flex;
   padding: 10px;
   width: 21%;
@@ -54,9 +53,10 @@
   align-items: center;
   object-fit: contain;
   padding-top: 7%;
+  padding-bottom: 0%;
 }
 .column-container2 {
-  height: calc(100% - 10px);
+  height: 88%;
   max-height: flex;
   padding: 10px;
   width: 21%;
@@ -65,9 +65,10 @@
   align-items: center;
   object-fit: contain;
   padding-top: 7%;
+  padding-bottom: 0%;
 }
 .column-container3 {
-  height: calc(100% - 10px);
+  height: 88%;
   max-height: flex;
   padding: 10px;
   width: 21%;
@@ -76,10 +77,11 @@
   align-items: center;
   object-fit: contain;
   padding-top: 7%;
+  padding-bottom: 0%;
 }
 .date-column-container {
   background-color: none;
-  height: calc(100% - 10px);
+  height: 88%;
   max-height: flex;
   width: 11%;
   display: flex;
@@ -108,6 +110,41 @@
 .information:hover{
   background-color: rgb(194, 194, 194);
   cursor: pointer;
+}
+
+.b-day {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 90%;
+  height: 250px;
+  margin: 4%;
+  flex-flow: column;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: contain;
+  text-align: left;
+}
+.b-day:hover{
+  background-color: rgb(194, 194, 194);
+  cursor: pointer;
+}
+.cards-image {
+  background: url('grl.jpg') center center/cover no-repeat;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards-image:hover {
+  transform: scale(1.1);
 }
 .information-2 {
   background-color: rgb(203, 225, 255);
@@ -235,7 +272,7 @@ h4blue {
 
 .logo {
   background-color: rgb(0, 110, 68);
-  /*background: url('/src/assets/giphy.gif') center center/cover no-repeat;*/
+  background: url('giphy.gif') center center/cover no-repeat;
   width: 35px;
   height: 35px;
   border-radius: 9px;
