@@ -55,53 +55,57 @@ function HomeSection() {
         <div className="column-container3">
           <div className="b-day">
             <div className="cards-image">
-              <h4>Kate's birthday</h4>
+              <div className="cards-other">
+                <div className="cards-mini"> In 2 days</div>
+                </div>
 
-              <ptext> In 2 days</ptext>
-            </div>
-          </div>
-
-          <div className="information-2">
-            <h4blue>Design onboarding</h4blue>
-
-            <ptextblue> 15 PM</ptextblue>
+              <div className="cards-head">
+                <h6>Kate's birthday</h6>
+              </div>
           </div>
         </div>
 
-        <div className="date-column-container">
-          <div className="date-heading">
-            <dh> All year</dh>
-          </div>
-          <div className="date">
-            <dtext> W.18 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.19 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.20 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.21 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.22 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.23 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.24 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.25 -</dtext>
-          </div>
-          <div className="date">
-            <dtext> W.26 -</dtext>
-          </div>
+        <div className="information-2">
+          <h4blue>Design onboarding</h4blue>
+
+          <ptextblue> 15 PM</ptextblue>
+        </div>
+      </div>
+
+      <div className="date-column-container">
+        <div className="date-heading">
+          <dh> All year</dh>
+        </div>
+        <div className="date">
+          <dtext> W.18 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.19 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.20 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.21 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.22 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.23 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.24 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.25 -</dtext>
+        </div>
+        <div className="date">
+          <dtext> W.26 -</dtext>
         </div>
       </div>
     </div>
+    </div >
 
   );
 }
