@@ -30,7 +30,7 @@ function HomeSection() {
         </div>
         <div className="column-container">
           <div className="information">
-            <h4black>Upcoming week</h4black>
+            <h4black>Upcoming week ✌</h4black>
 
             <ptext>
               Here's a quick summary of your week. Check out these performance
@@ -60,7 +60,7 @@ function HomeSection() {
                 </div>
 
               <div className="cards-head">
-                <h6>Kate's birthday</h6>
+                <h6>Kate's birthday 🥳</h6>
               </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ function HomeSection() {
           <dh> All year</dh>
         </div>
         <div className="date">
-          <dtext> W.18 -</dtext>
+          <dtext id='active'> W.18 -</dtext>
         </div>
         <div className="date">
           <dtext> W.19 -</dtext>
@@ -101,7 +101,7 @@ function HomeSection() {
           <dtext> W.25 -</dtext>
         </div>
         <div className="date">
-          <dtext> W.26 -</dtext>
+          <dtext id='opac'> W.26 -</dtext>
         </div>
       </div>
     </div>

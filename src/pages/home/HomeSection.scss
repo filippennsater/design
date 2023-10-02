@@ -88,6 +88,7 @@
   flex-direction: column;
   align-self:right;
   align-items: right;
+  justify-content: right;
   object-fit: contain;
   padding-top: 7%;
 }
@@ -217,15 +218,18 @@
 
 .date-heading {
   display: flex;
-  width: 100%;
+  width: 70%;
+  margin-left: 30%;
   height: 35px;
   margin-top: 8%;
+  justify-content: right;
+  align-self: right;
   flex-flow: column;
   overflow: hidden;
   object-fit: contain;
   text-align: center;
   border-width: 0 0 3px 0;
-  border-color: rgb(233, 233, 233);
+  color: rgb(126, 126, 126);
   border-style: solid;
 }
 .date {
@@ -239,8 +243,17 @@
   text-align: right;
 }
 
+#opac {
+  opacity: 40%;
+}
+
+#active {
+  color: rgb(167, 0, 189);
+}
+
+
 dh{
-  color: rgb(192, 192, 192);
+  color: rgb(126, 126, 126);
   font-size:calc(10px + 0.5vw);
   font-weight: bold;
 }
@@ -253,6 +266,7 @@ dtext{
 
 dtext:hover{
   color: rgb(65, 65, 65);
+  font-size:calc(14px + 0.5vw);
   cursor: pointer;
 }
 
@@ -278,7 +292,7 @@ h6 {
   text-align: left;
   margin-left: 5%;
   margin-bottom: 10%;
-  font-size: calc(20px + 1.0vw);
+  font-size: calc(13px + 1.0vw);
   margin-top: 1.5vw;
 }
 
